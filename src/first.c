@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main(){
-    printf("Welcome to Stepin");
+    Printf("This is the first Part");
     return 0;
 }
