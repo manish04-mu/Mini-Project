@@ -1,10 +1,14 @@
 #Targetname : dependencies
 #<TAB>command
+# Name of the project
 TEST_PROJ_NAME = Library
+# Output directory
 BUILD_DIR = Build
 
+# All include folders with header files
 INC = fun.h
 
+# All source code files
 SRC = src/first.c
 
 ifdef OS
@@ -19,12 +23,13 @@ else
    endif
 endif
 
+# Default target built
 all: $(SRC) $(BUILD_DIR)
 	gcc -I $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
-
+# Call `make run` to run the application
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
