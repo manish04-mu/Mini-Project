@@ -31,10 +31,34 @@ Experience	Windows Feature Experience Pack 120.2212.3030.0
 * [Unit test](http://www.throwtheswitch.org/unity)
 # Documentation
 * [Doxygen](https://www.doxygen.nl/download.html)
-* Step by step Guide
+S
 
 # Tools 
 *  MS Excel, MS word or Similar
     
+
+## SWOT ANALYSIS
+
+![1da0d48a2c5d42edbb0e623a24a1705d-0001](https://user-images.githubusercontent.com/86512966/124661512-33910e00-dec5-11eb-8fc1-39275538ca61.jpg)
+
+## 4W and 1H
+
+#### **Who:**
+   Employee Record System helps companies to keep track of all the data of employees with their records. It is specially used to manage the company using a computerized system.
+   
+#### **When:**
+   To keep an update record of the leaves, transfers, turnover, etc. of the employees. It helps the managers to make salary revisions, allowances and other benefits related to salaries.
+   
+#### **What:**
+   Human Resources Department is responsible for the collection, development and maintenance of a centralized personnel records for employees.
+   
+#### **Where:**
+   It is specially used to manage the company using a computerized system.
+   
+#### **How:**
+   We can use electronic files or papers.Hiring records are sorted by employee name, organize payroll records the same way. Keeping the same system across all types of records, and  file folders should  have accurate,uniform names.
+
+## **Detail Requirement**
+
 
 

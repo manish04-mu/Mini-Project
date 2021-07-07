@@ -9,7 +9,7 @@ BUILD_DIR = Build
 INC = fun.h
 
 # All source code files
-SRC = src/first.c
+SRC = src/first.c\
 
 ifdef OS
    RM = del /q
