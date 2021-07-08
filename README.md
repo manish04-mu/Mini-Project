@@ -3,9 +3,9 @@
 # Library Managment System
 
 ## Code Quality
- Code Quality | [Git Inspector](using github.io option) |    Unity
- -------------|-----------------------------------------|--------------
-[![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml)
+ Build | Code Quality | Unity | [Git Inspector](using github.io option)
+ ------|--------------|-------|-------------------------------------------
+[![C/C++ CI - Build Status](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) 
 
 
 ## Folder Structure
