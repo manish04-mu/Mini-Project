@@ -27,8 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: build
-        run: gcc gcc -I unity src/first.c test/test_project.c -I inc unity/unity.c -o Build\Library.exe
+        run: gcc -I 3_Implementation/unity 3_Implementation/src/first.c 3_Implementation/test/test_project.c -I 3_Implementation/inc 3_Implementation/unity/unity.c -o 3_Implementation/Build\Library.exe
 
       # Runs a set of commands using the runners shell
       - name: Run
-        run: ./Build\Library.exe
+        run: ./3_Implementation\Build\Library.exe
