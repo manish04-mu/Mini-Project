@@ -1,4 +1,3 @@
-  
 name: CodeQuality Dynamic Code Analysis Valgrind
 on:
   push:
@@ -20,4 +19,4 @@ jobs:
     - name: make test
       run: make -C 3_Implementation/ test
     - name: Valgrid
-      run: valgrind ./3_Implementation/build/test_project.out
+      run: valgrind ./3_Implementation/build/Test_Library.out
