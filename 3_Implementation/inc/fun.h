@@ -1,4 +1,6 @@
 /**
+ * @mainpage Mini_Project by "Rahul Kumar"
+ * @subpage Library Managment System
  * @file fun.h
  * @author Rahul Kumar (rahultiwaricusat@gmail.com)
  * @brief 

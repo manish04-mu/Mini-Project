@@ -3,6 +3,7 @@
 # Library Managment System
 
 ## Code Quality
+[![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml)
 [Code Quality Score](https://www.code-inspector.com/project/24745/score/svg)
 [Code Grade](https://www.code-inspector.com/project/24745/status/svg)
 
