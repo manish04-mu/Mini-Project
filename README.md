@@ -3,9 +3,10 @@
 # Library Managment System
 
 ## Code Quality
-[![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml)
-[Code Quality Score](https://www.code-inspector.com/project/24745/score/svg)
-[Code Grade](https://www.code-inspector.com/project/24745/status/svg)
+ Code Quality | [Git Inspector](using github.io option) |    Unity
+ -------------|-----------------------------------------|--------------
+[![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml)
+
 
 ## Folder Structure
 Folder               | Description
