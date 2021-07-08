@@ -6,10 +6,13 @@ TEST_PROJ_NAME = Library
 BUILD_DIR = Build
 
 # All include folders with header files
-INC = fun.h
+INC=inc
+
+TEST = unity/unity.c
 
 # All source code files
 SRC = src/first.c\
+test/test_project.c
 
 ifdef OS
    RM = del /q
@@ -24,8 +27,8 @@ else
 endif
 
 # Default target built
-all: $(SRC) $(BUILD_DIR)
-	gcc -I $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+all: $(SRC) $(BUILD_DIR) $(TEST)
+	gcc -I unity $(SRC) $ -I $(INC) $(TEST) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
