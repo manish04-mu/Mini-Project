@@ -15,27 +15,36 @@ Experience	Windows Feature Experience Pack 120.2212.3030.0
     * [Virtual Box](https://itsfoss.com/install-linux-in-virtualbox/) (might slow down your system performance)
     * [Dual Boot](https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/) (Prefer only if you know how to do it or have guidance on how to do it)
 * If you have Linux, you can continue with additional tools on Linux without the need for Windows
-# Additional Tools
-## On Window OS
-# IDE 
+### Additional Tools
+### On Window OS
+### IDE 
 * [Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-mingw) for compiling and debugging the code
 * Build Tools
      * Make Installer from [GNUWin32](http://gnuwin32.sourceforge.net/packages/make.htm) for automating the build without using IDE
-# Code Analysis
+### Code Analysis
 * [cppcheck](http://cppcheck.sourceforge.net/) for Static Analysis
 * [Dr. Memory](https://github.com/DynamoRIO/drmemory/wiki/Downloads) for Heap analysis
 * [Memory Sanitization](https://lemire.me/blog/2016/04/20/no-more-leaks-with-sanitize-flags-in-gcc-and-clang/) using gcc and -fsanitize option
-# Source code Management
+### Source code Management
 * [git](https://git-scm.com/downloads)
-# Test Framework
+### Test Framework
 * [Unit test](http://www.throwtheswitch.org/unity)
-# Documentation
+### Documentation
 * [Doxygen](https://www.doxygen.nl/download.html)
 S
 
-# Tools 
+### Tools 
 *  MS Excel, MS word or Similar
-    
+
+# Introduction
+The Library Management system is a basic C project. You can save the name of the student with the date of issue and author of the book. It also provides a facility to allocate no. Of the books that students can issue.It also calculate the fine and provide a smooth issueing and renewing book.
+
+# Research
+
+# Cost and Features and Timeline
+
+# Defining Our System
+   
 
 ## SWOT ANALYSIS
 
@@ -58,7 +67,15 @@ S
 #### **How:**
    We can use electronic files or papers.Hiring records are sorted by employee name, organize payroll records the same way. Keeping the same system across all types of records, and  file folders should  have accurate,uniform names.
 
-## **Detail Requirement**
 
+# Detail requirements
+## High Level Requirements:
+--- TBD in Tabular Format 
+-- ID | Description | Status (Implemented/Future)
+
+
+##  Low level Requirements:
+--- TBD in Tabular Format 
+-- ID | Description | Status (Implemented/Future)
 
 

@@ -1,11 +1,13 @@
 # Mini-Project
 
 # Library Managment System
+![Logo elibrary](https://github.com/rahulcusat/Mini-Project/blob/main/6_Image%20and%20Video/elibrary.png)
 
 ## Code Quality
- Code Quality | [Git Inspector](using github.io option) |    Unity
- -------------|-----------------------------------------|--------------
-[![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml)
+ Build | Code Quality | [Git Inspector](using github.io option) |    Unity
+ ------|--------------|-----------------------------------------|--------------
+[![C/C++ CI - Build Status](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) [![Code Grade](https://www.code-inspector.com/project/24745/status/svg)](https://www.code-inspector.com/project/24745/status/svg) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) 
+
 
 
 ## Folder Structure
@@ -15,6 +17,7 @@ Folder               | Description
 `2_Architecture`     | Documents specifying design details
 `3_Implementation`   | All code and documentation
 `4_Test_Plan&Output` | Documents with test plans and procedures
+`5_Report`           | The Report of the Mini Project
 `6_Image and Video`  | Image and Video related to the demonstration
 `7_Others`           | Ant Others things
 
@@ -29,6 +32,7 @@ Candidate ID |    Name    |    Features       | Issuess Raised |Issues Resolved|
 
 ## Integrated Tools to GitHub
 *  [Codacy](https://www.codacy.com/)
+*  [CodeInspector](https://frontend.code-inspector.com/home)
 
 ## GitHub Actions
 * Build using Make for CI

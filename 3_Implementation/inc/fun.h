@@ -18,5 +18,9 @@
  * 
 
  */
-int div(int a,int b);
+void create_account(void);
+void Login(void);
+void account_check(void);
+int libraryFine(int day1, int month1, int year1, int day2, int month2, int year2,int no_of_book);
+void choose_book(void);
 #endif 
