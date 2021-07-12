@@ -3,18 +3,7 @@
 #include<math.h>
 #include<stdlib.h>
 #include<fun.h>
-#include<windows.h>
-#include<conio.h>
-typedef struct Books {
-   char title[50];
-   char author[50];
-   char subject[100];
-   int book_id;
-} Book;
 int main(){
-    system("color 5f");
-    Book book;
-    int amount_to_be_payable=0;
     printf("\t\tWelcome to the eLibrary of LTTs\n");
     int key;
     printf("\nEnter 0 for Cerate Account or continue with 1\n");
@@ -25,28 +14,6 @@ int main(){
     else{
         Login();
 
-    }
-    printf("\n\n\t\t\t  MENU\t\t\n\n");
-    printf("\t1.Add Book   \t2.List   \t3.Exit   \t4.Search\n");
-    getch();
-    switch(getch()){
-        case '1':
-        addbook();
-        break;
-        case '2':
-        list();
-        break;
-        case '3':
-        exit();
-        break;
-        case 4:
-        search();
-        break;
-        default:
-        system("cls");
-                printf("\nEnter 1 to 6 only");
-                printf("\n Enter any key");
-                getch();
     }
 
     return 0;
