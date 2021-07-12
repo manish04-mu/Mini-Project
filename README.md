@@ -4,16 +4,9 @@
 ![Logo elibrary](https://github.com/rahulcusat/Mini-Project/blob/main/6_Image%20and%20Video/elibrary.png)
 
 ## Code Quality
-<<<<<<< HEAD
- Build | Code Quality | [Git Inspector](using github.io option) |    Unity
- ------|--------------|-----------------------------------------|--------------
-[![C/C++ CI - Build Status](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) [![Code Grade](https://www.code-inspector.com/project/24745/status/svg)](https://www.code-inspector.com/project/24745/status/svg) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) 
-
-=======
  Build | Code Quality | Unity | [Git Inspector](using github.io option)
  ------|--------------|-------|-------------------------------------------
 [![C/C++ CI - Build Status](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/c_cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/cppcheck.yml) | [![Unit Testing - Unity](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/rahulcusat/Mini-Project/actions/workflows/gitinspector.yml) 
->>>>>>> 5a46d83743857dbc90418a3e7a4ea8fcf588b9f8
 
 
 ## Folder Structure
