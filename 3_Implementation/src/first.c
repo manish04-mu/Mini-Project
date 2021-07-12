@@ -33,7 +33,7 @@ void create_account(void){
     scanf("%s",password2);
     if(strlen(password1)!=strlen(password2)){
         printf("Plz Retype Your passsword\n");
-        scanf("%s",&password2);
+        scanf("%s",password2);
     }
     else{
           printf("Wow! %s Your account has been created\n",name);

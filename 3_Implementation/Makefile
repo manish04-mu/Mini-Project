@@ -11,8 +11,7 @@ INC=inc
 TEST = unity/unity.c
 
 # All source code files
-SRC = src/first.c\
-test/test_project.c
+SRC = src/first.c
 
 ifdef OS
    RM = del /q
@@ -28,13 +27,13 @@ endif
 
 # Default target built
 all: $(SRC) $(BUILD_DIR) $(TEST)
-	gcc -I unity $(SRC) $ -I $(INC) $(TEST) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	gcc -I unity $(SRC) $ -I $(INC) -o $(call FixPath,$(BUILD_DIR).$(EXEC))
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 # Call `make run` to run the application
 run: all
-	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR) .$(EXEC))
 
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
